@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --dark: #111111;
+  --light-text: #555555;
+}
+
+* {
+  font-family: "Urbanist", sans-serif;
+}
+
+.subClass {
+  background: url("./assets/gallery4.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 370px) {
+  .fashion-img {
+    aspect-ratio: 1/1.2 !important;
+  }
+}
